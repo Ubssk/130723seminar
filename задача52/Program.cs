@@ -36,6 +36,9 @@ void PrintMatrix(int[,] matrix)
         }
         Console.WriteLine();
     }
+}
+void Average (int[,] matrix)
+{
     Console.Write("Среднее арифметическое каждого столбца: ");
     for (int i = 0; i < matrix.GetLength(1); i++)
     {
@@ -49,3 +52,4 @@ void PrintMatrix(int[,] matrix)
         Console.Write("; ");
     }
 }
+Average(array2D);
